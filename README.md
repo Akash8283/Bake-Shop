@@ -2,7 +2,7 @@
 
 A fully responsive Bake-Shop website built using HTML, CSS, and Bootstrap. This project showcases a modern, clean, and user-friendly design for a bakery website, deployed live on Netlify.
 
-🔗 Live Demo: Green Girl Bake-Shop
+🔗 Live Demo: https://green-girl-bakeshop.netlify.app
 
 ✨ Features
 
