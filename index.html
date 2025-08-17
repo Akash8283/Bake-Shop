@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Girl</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+AU+QLD:wght@100..400&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <div>
+      <!-- Navigation Bar -->
+      <nav id="nav" class="navbar navbar-expand-xl bg-body-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="./images/logo.avif" alt="logo"
+          /></a>
+          <button
+            id="button"
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href=""
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >SHOP</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a id="dropdown-item" class="dropdown-item" href="">PLANT-BASED GELATO</a>
+                  </li>
+                  <li>
+                    <a id="dropdown-item" class="dropdown-item" href="">COOKIE SANDWICHES</a>
+                  </li>
+                  <li><a id="dropdown-item" class="dropdown-item" href="">SHOP ALL</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >ABOUT</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a id="dropdown-item" class="dropdown-item" href="">OUR INGREDIENTS</a></li>
+                  <li><a id="dropdown-item" class="dropdown-item" href="">OUR STORY</a></li>
+                  <li><a id="dropdown-item" class="dropdown-item" href="">FAQS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">FIND A STORE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">CONTACT</a>
+              </li>
+              
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">SIGN IN</a>
+              </li>
+            </ul>
+          </div>
+          <a id="cart" href=""><i class="fa-solid fa-cart-shopping"></i> CART</a>
+        </div>
+      </nav>
+      <!-- Main -->
+      <main id="main">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/bake1.webp"
+                class="d-block w-100"
+                alt="bake1"
+              />
+              <div class="carousel-caption" id="caption">
+                <h2 class="animate__animated animate__fadeInLeft" id="h2">
+                  PLANT-BASED ICEBOX TREATS
+                </h2>
+                <h5 class="animate__animated animate__fadeInLeft" id="h5">
+                  Allergen-free superfood gelato and cookie sandwiches <br />
+                  made from love!
+                </h5>
+                <a
+                  id="caption-button"
+                  class="animate__animated animate__fadeInLeft"
+                  type="button"
+                  href=""
+                  >Shop now</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/bake2.webp"
+                class="d-block w-100"
+                alt="bake2"
+              />
+              <div class="carousel-caption" id="caption">
+                <h2 class="animate__animated animate__fadeInLeft" id="h2">
+                  PLANT-BASED SUPERFOOD <br />
+                  ICEBOX SANDWICHES
+                </h2>
+                <h5 class="animate__animated animate__fadeInLeft" id="h5">
+                  Made with adaptogens
+                </h5>
+                <a
+                  id="caption-button"
+                  class="animate__animated animate__fadeInLeft"
+                  type="button"
+                  href=""
+                  >Shop now</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/bake3.webp"
+                class="d-block w-100"
+                alt="bake3"
+              />
+              <div class="carousel-caption" id="caption">
+                <h2 class="animate__animated animate__fadeInLeft" id="h22">
+                  6 SIMPLE & INDULGENT FLAVORS OF <br />
+                  ICEBOX TREATS
+                </h2>
+                <h5 class="animate__animated animate__fadeInLeft" id="h55">
+                  Try our superfood gelato
+                </h5>
+                <a
+                  id="caption-button"
+                  class="animate__animated animate__fadeInLeft"
+                  type="button"
+                  href=""
+                  >Shop now</a
+                >
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="mid">
+          <img
+            data-aos="fade-right"
+            class="img-bake"
+            src="./images/bake4.avif"
+            alt="bake4"
+          />
+          <img
+            data-aos="zoom-in"
+            class="img-bake"
+            src="./images/bake5.avif"
+            alt="bake5"
+          />
+          <img
+            data-aos="fade-left"
+            class="img-bake"
+            src="./images/bake6.avif"
+            alt="bake6"
+          />
+        </div>
+        <div class="p-mid">
+          <a class="content" href="">discover our products</a>
+          <a class="content" href="">find us in store</a>
+          <a class="content" href="">read our story</a>
+        </div>
+
+        <div class="div-ingredients">
+          <div data-aos="zoom-in-up" class="ingredients">
+            <img class="bake7" src="./images/bake7.webp" alt="bake7" />
+            <div data-aos="fade-left" class="ingredients-2">
+              <h3 class="ingredients-h3">Our Ingredients</h3>
+              <span class="line"></span>
+              <p class="ingredients-p">
+                All of our icebox sandwiches and gelato are made with simple,
+                clean, easy to understand ingredients that are dairy free,
+                gluten free, grain free, soy free, and paleo.
+              </p>
+              <a class="ingredients-button" type="button" href="">LEARN MORE</a>
+            </div>
+          </div>
+          <div class="line2"></div>
+          <div data-aos="zoom-in-up" class="ingredients">
+            <div data-aos="fade-right" class="ingredients-2">
+              <h3 class="ingredients-h3">Our Vision</h3>
+              <span class="line"></span>
+              <p class="ingredients-p">
+                Bake the best nutrient-dense, plant-based, allergy-friendly
+                desserts that nourish the mind, body, and soul, support health
+                and wellness, and respect the environment and all living beings.
+              </p>
+              <a class="ingredients-button" type="button" href=""
+                >READ OUR STORY</a
+              >
+            </div>
+            <img class="bake7" src="./images/bake8.webp" alt="bake7" />
+          </div>
+        </div>
+      </main>
+
+      <!-- FOOTER -->
+       <footer>
+        <div class="footer">
+          <div class="footer1">
+            <h3 class="footer-h3">Keep in Touch with Green Girl</h3>
+            <input class="input-mail" type="email" placeholder="email">
+            <br>
+            <div class="footer-button"><a class="footer-button1" role="button" href="">SIGN UP</a></div>
+          </div>
+  
+          <div class="footer2">
+             <h1 class="footer2-h1">GREEN GIRL</h1>
+             <P class="footer2-p">BAKE SHOP</P>
+          </div>
+  
+          <div class="footer3">
+            <div><a class="footer-link" href="">SHIPPING INFO <i class="fa-brands fa-shopify"></i></a></div>
+            <a class="footer-link" href="">FIND A STORE <i class="fa-solid fa-store"></i></a>
+            <div><a class="footer-link" href="">CONTACT US <i class="fa-solid fa-phone"></i></a></div>
+            <div class="footer3-icons" ><a class="icons" href=""><i class="fa-brands fa-facebook-f"></i></a> <a class="icons" href=""><i class="fa-brands fa-pinterest-p"></i></a> <a class="icons" href=""><i class="fa-brands fa-instagram"></i></a></div>
+          </div>
+        </div>
+        <hr>
+        <div class="copyright">
+          <a class="right-link" href="">&copy; 2025 Green Girl Bakeshop.</a>
+          <a class="right-link" href="">Site Design</a>
+        </div>
+       </footer>
+    </div>
+  </body>
+  <script>
+    window.addEventListener("load", () => {
+      AOS.init({
+        duration: 1000,
+        offset: 100,
+      });
+      AOS.refresh();
+    });
+  </script>
+</html>
